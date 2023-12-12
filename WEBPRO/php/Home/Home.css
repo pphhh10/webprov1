@@ -77,9 +77,10 @@
 }
 
 .card-img-top {
-  height: 325px;
-  object-fit: cover;
+  height: 369px;
+  width: 100%;
 }
+
 
 /* Apply styles to the button */
 .btn-outline-secondary {
@@ -102,3 +103,86 @@
   transform: scale(0.98); /* Slightly scale down on click */
 }
 
+      /* Styles for the "Sign up" Button */
+      .custom-signup-btn {
+        color: #fff; /* Text color for the button */
+        background-color: #e44d26; /* Custom color for the "Sign up" button */
+        border-color: #e44d26; /* Border color */
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+      }
+      
+      /* Add hover effect */
+      .custom-signup-btn:hover {
+        background-color: #c53c20; /* Darker color on hover */
+        color: #fff; /* Change text color to white on hover */
+      }
+      
+      /* Add click animation */
+      .custom-signup-btn:active {
+        transform: scale(0.98); /* Slightly scale down on click */
+        background-color: #a8321a; /* Darker background color on click */
+      }
+      
+      /* stylelint-disable stylistic/selector-list-comma-newline-after */
+      
+      .blog-header-logo {
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+        font-size: 2.25rem;
+      }
+      
+      .blog-header-logo:hover {
+        text-decoration: none;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+      }
+      
+      .flex-auto {
+        flex: 0 0 auto;
+      }
+      
+      .h-250 { height: 250px; }
+      @media (min-width: 768px) {
+        .h-md-250 { height: 250px; }
+      }
+      
+      /* Pagination */
+      .blog-pagination {
+        margin-bottom: 4rem;
+      }
+      
+      /*
+       * Blog posts
+       */
+      .blog-post {
+        margin-bottom: 4rem;
+      }
+      .blog-post-meta {
+        margin-bottom: 1.25rem;
+        color: #727272;
+      }
+
+
+        .image-container {
+          background-image: url('/WEBPRO/Images/bg1.png'); /* Replace 'your-image-url.jpg' with the actual image URL */
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          overflow: hidden;
+          transition: transform 0.3s ease; /* Apply transition for the 'transform' property */
+      }
+      
+      .image-container:hover {
+          transform: scale(1.05); /* Increase scale on hover to make it pop out */
+      }
+      
+      .image-container h1,
+      .image-container p,
+      .image-container a {
+          transition: color 0.3s ease; /* Apply transition for the 'color' property */
+      }
+      
+      /* Additional styles for your other elements */
+      
+    
